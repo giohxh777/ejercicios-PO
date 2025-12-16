@@ -1,4 +1,4 @@
-from modelo_botella import Botella # type: ignore
+from modelaje_botella import Botella 
 
 class Botella_vidrio(Botella):
     def __init__(self, dato_material, dato_capacidad, dato_forma, dato_diseño, dato_tapa, dato_grabados):
@@ -15,4 +15,5 @@ class Botella_vidrio(Botella):
         self.grabados = dato_grabados
     
     def compatible_bebidas_calientes(self):
+
         return "Apta para bebidas muy calientes y frías."
