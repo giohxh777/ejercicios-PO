@@ -1,0 +1,13 @@
+from animales_padre import Animal
+
+class Pato(Animal):
+    def __init__(self, nombre, edad, habitat, dieta, tamaño, color):
+        super().__init__(nombre, edad, habitat, dieta, tamaño, color)
+
+    def moverse(self):
+        return f"{self.nombre} se despplaza lentamente en el agua y camina en tierra."
+
+    def alimentarse(self):
+        return f"{self.nombre} come plantas acuáticas, migas de pan y peces pequeños."
+
+        
