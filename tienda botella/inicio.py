@@ -1,6 +1,6 @@
-from modelo_botella import Botella # type: ignore
-from modelo_botella_hija1 import Botella_plastico # type: ignore
-from modelo_botella_hija2 import Botella_vidrio # type: ignore
+from modelo_botella import Botella
+from modelo_botella_hija1 import Botella_plastico
+from modelo_botella_hija2 import Botella_vidrio
 
 #codigo principal
 botella_plastico = Botella_plastico("plástico", "500ml", "cilíndrica", "normal", "si", "ninguno")
