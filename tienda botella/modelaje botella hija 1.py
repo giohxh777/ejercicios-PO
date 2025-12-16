@@ -1,4 +1,4 @@
-from modelo_botella import Botella  # type: ignore
+from modelaje_botella import Botella  
     
     
     
@@ -36,4 +36,5 @@ class Botella_plastico(Botella):
     
     
     def compatible_bebidas_calientes(self):
+
         return "No es compatible para bebidas calientes."
