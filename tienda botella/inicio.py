@@ -1,6 +1,6 @@
-from modelo_botella import Botella
-from modelo_botella_hija1 import Botella_plastico
-from modelo_botella_hija2 import Botella_vidrio
+from modelaje_botella import Botella
+from modelaje_botella_hija1 import Botella_plastico
+from modelaje_botella_hija2 import Botella_vidrio
 
 #codigo principal
 botella_plastico = Botella_plastico("plástico", "500ml", "cilíndrica", "normal", "si", "ninguno")
@@ -15,4 +15,5 @@ print(f"Material: {botella_vidrio.material}")
 print(f"Capacidad: {botella_vidrio.capacidad}")
 print(botella_vidrio.compatible_bebidas_calientes())
 print("la botella tiene las siguientes caracteristicas: material:", botella_vidrio.material, ", capacidad:", botella_vidrio.capacidad, ", forma:", botella_vidrio.forma, ", diseño:", botella_vidrio.diseño, ", tapa:", botella_vidrio.tapa, ", grabados:", botella_vidrio.grabados)
+
 
